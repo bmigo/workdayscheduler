@@ -8,7 +8,7 @@ $(".time-block").each(function() {
     console.log(timeBlock1);
     var timeBlock = timeBlock1.substr(-2);
     console.log(timeBlock);
-/*     if (timeBlock < currentHour) {
+    if (timeBlock < currentHour) {
         $(this).removeClass("future");
         $(this).removeClass("present");
         $(this).addClass("past");
@@ -23,7 +23,7 @@ $(".time-block").each(function() {
         $(this).removeClass("past");
         $(this).addClass("future");
 
-    } */
+    }
 });
 
 $(".saveBtn").on("click", function () {
